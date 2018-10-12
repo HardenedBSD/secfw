@@ -1,0 +1,12 @@
+secadm {
+        pax {
+                path: "/usr/local/bin/node",
+                pageexec : true,
+                aslr: true,
+                disallow_map32bit: true,
+                mprotect: false,
+                segvguard: true,
+                shlibrandom: true
+                
+        }
+}
